@@ -26,7 +26,7 @@ void Try_X(int s, int k){  // gan x[s] cho xe thu k
         return;
     }
     for(int v = 0; v <= n; v++){
-        if(checkX(v,k)){/
+        if(checkX(v,k)){
             x[s] = v; visited[v] = true;
             f += c[s][v]; load[k] += d[v];
             segments = segments + 1;
